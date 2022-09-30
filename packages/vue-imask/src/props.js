@@ -54,5 +54,12 @@ export default {
   max: [Number, Date],
 
   // dynamic
-  dispatch: Function
+  dispatch: Function,
+
+  // Dynamic component
+  cmp: {
+    type: [String, Function],
+    required: false,
+    default: 'input',
+  }
 }

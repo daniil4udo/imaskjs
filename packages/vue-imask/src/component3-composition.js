@@ -73,7 +73,7 @@ export default {
         }
       }
 
-      return h('input', data);
+      return h(this.cmp, data);
     };
   },
 

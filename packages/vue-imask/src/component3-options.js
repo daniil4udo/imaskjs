@@ -28,7 +28,7 @@ export default {
       data.onInput = event => this.$emit('update:modelValue', event.target.value);
     }
 
-    return h('input', data);
+    return h(this.cmp, data);
   },
 
   mounted () {

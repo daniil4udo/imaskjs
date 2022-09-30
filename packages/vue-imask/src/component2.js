@@ -20,7 +20,7 @@ export default {
       delete data.on.input;
     }
 
-    return createElement('input', data);
+    return createElement(this.cmp, data);
   },
 
   mounted () {
